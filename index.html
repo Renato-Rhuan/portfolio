@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Renato Rhuan | Desenvolvedor Full-Stack</title>
+  <meta name="description" content="Portfólio de Renato Rhuan, desenvolvedor Full-Stack com React, Node.js e APIs REST. Veja os projetos online e o código no GitHub.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/devicon.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="hero" id="home">
+    <nav class="nav" aria-label="Principal">
+      <a class="logo" href="#home">Renato<span>.Dev</span></a>
+      <ul class="nav__links" id="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#skills">Habilidades</a></li>
+        <li><a href="#projects">Projetos</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+      <button class="nav__toggle" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu">
+        <i class="fa-solid fa-bars-staggered"></i>
+      </button>
+    </nav>
+
+    <p class="hero__name" aria-hidden="true">RENATO</p>
+    <img class="hero__photo" src="img/renato.png" alt="Renato Rhuan">
+
+    <div class="hero__copy">
+      <p class="badge"><span class="badge__dot"></span>Disponível para novos projetos</p>
+      <h1>Transformo ideias em <em>interfaces que as pessoas amam usar.</em></h1>
+      <p class="hero__lead">Desenvolvedor Full-Stack com React e Node.js. Do banco de dados ao último pixel.</p>
+      <div class="actions">
+        <a class="btn btn--solid" href="#contact">Fale comigo <i class="fa-solid fa-arrow-right"></i></a>
+        <a class="btn btn--line" href="#projects">Ver projetos <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </div>
+
+    <p class="hero__loc">São Paulo, Brasil<br>Atendimento remoto</p>
+
+    <aside class="hero__card">
+      <span class="hero__card-label">No ar agora</span>
+      <strong><span data-count>15</span> projetos publicados</strong>
+      <span class="hero__card-sub">Todos com código aberto no GitHub</span>
+    </aside>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span class="tech"><i class="devicon-html5-plain"></i>HTML5</span>
+        <span class="tech"><i class="devicon-css3-plain"></i>CSS3</span>
+        <span class="tech"><i class="devicon-javascript-plain"></i>JavaScript</span>
+        <span class="tech"><i class="devicon-react-original"></i>React</span>
+        <span class="tech"><i class="devicon-nodejs-plain"></i>Node.js</span>
+        <span class="tech"><i class="devicon-express-original"></i>Express</span>
+        <span class="tech"><i class="devicon-typescript-plain"></i>TypeScript</span>
+        <span class="tech"><i class="devicon-tailwindcss-original"></i>Tailwind</span>
+        <span class="tech"><i class="devicon-bootstrap-plain"></i>Bootstrap</span>
+        <span class="tech"><i class="devicon-mysql-plain"></i>MySQL</span>
+        <span class="tech"><i class="devicon-git-plain"></i>Git</span>
+        <span class="tech"><i class="devicon-github-original"></i>GitHub</span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section" id="about">
+      <div class="wrap about">
+        <figure class="about__photo">
+          <img src="img/renato-hero.png" alt="Foto de Renato Rhuan" loading="lazy">
+        </figure>
+        <div class="about__text">
+          <h2>Sobre mim</h2>
+          <p class="lead">Sou Renato Rhuan, desenvolvedor apaixonado por transformar linhas de código em soluções digitais que impactam pessoas.</p>
+          <p>Nos últimos 2 anos foquei em ganhar experiência prática criando interfaces modernas e sistemas dinâmicos. Gosto de atuar em todas as camadas de um projeto, da modelagem de dados no MySQL ao refinamento visual com Tailwind CSS.</p>
+          <p>Meu foco é performance, organização e experiência de uso. Um bom software não deve apenas funcionar: precisa oferecer uma jornada fluida para quem o usa.</p>
+          <dl class="stats">
+            <div><dt>2+</dt><dd>anos de experiência</dd></div>
+            <div><dt data-count>15</dt><dd>projetos no ar</dd></div>
+            <div><dt>7</dt><dd>tecnologias no dia a dia</dd></div>
+          </dl>
+          <div class="actions">
+            <a class="btn btn--solid" href="CV_Renato_Rhuan_FullStack_ATS.pdf.pdf" download><i class="fa-solid fa-file-pdf"></i> Baixar currículo</a>
+            <a class="btn btn--line" href="https://github.com/Renato-Rhuan" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> Meu GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--chalk" id="skills">
+      <div class="wrap">
+        <h2>Habilidades</h2>
+        <div class="skills">
+          <div>
+            <h3>Tecnologias</h3>
+            <ul class="chips">
+              <li><i class="devicon-react-original"></i>React.js</li>
+              <li><i class="devicon-nodejs-plain"></i>Node.js</li>
+              <li><i class="devicon-express-original"></i>Express.js</li>
+              <li><i class="devicon-typescript-plain"></i>TypeScript</li>
+              <li><i class="devicon-tailwindcss-original"></i>Tailwind CSS</li>
+              <li><i class="devicon-bootstrap-plain"></i>Bootstrap 5</li>
+              <li><i class="devicon-mysql-plain"></i>MySQL</li>
+              <li><i class="fa-solid fa-cloud-arrow-down"></i>APIs RESTful</li>
+              <li><i class="devicon-git-plain"></i>Git e GitHub</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Como eu trabalho</h3>
+            <ul class="soft">
+              <li>Comunicação clara com quem contrata</li>
+              <li>Trabalho em equipe (Scrum e Kanban)</li>
+              <li>Proatividade para propor melhorias</li>
+              <li>Organização de código e de tarefas</li>
+              <li>Resolução de problemas com calma</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--dark" id="projects">
+      <div class="wrap">
+        <div class="projects__head">
+          <div>
+            <h2>Projetos</h2>
+            <p class="projects__sub">Cada card leva ao site publicado e ao repositório no GitHub, com as linguagens usadas.</p>
+          </div>
+          <div class="filters" role="group" aria-label="Filtrar projetos">
+            <button class="filter is-active" data-filter="all">Todos</button>
+            <button class="filter" data-filter="react">React</button>
+            <button class="filter" data-filter="node">Node.js</button>
+            <button class="filter" data-filter="front">HTML, CSS e JS</button>
+          </div>
+        </div>
+        <div class="grid" id="grid"></div>
+        <a class="btn btn--paper all-repos" href="https://github.com/Renato-Rhuan?tab=repositories" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> Ver todos os repositórios</a>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="wrap contact">
+        <div>
+          <h2>Vamos tirar sua ideia do papel?</h2>
+          <p class="lead">Estou disponível para projetos freelance, vagas remotas e oportunidades como Full-Stack Developer.</p>
+        </div>
+        <ul class="contact__list">
+          <li><a href="mailto:renato.rhuan.dev@gmail.com"><i class="fa-solid fa-envelope"></i><span><small>E-mail</small>renato.rhuan.dev@gmail.com</span></a></li>
+          <li><a href="https://wa.me/5517991630957" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i><span><small>WhatsApp</small>+55 (17) 99163 0957</span></a></li>
+          <li><a href="https://www.linkedin.com/in/renato-rhuan-7a2b73283/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i><span><small>LinkedIn</small>Renato Rhuan</span></a></li>
+          <li><a href="https://github.com/Renato-Rhuan" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i><span><small>GitHub</small>Renato-Rhuan</span></a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year">2026</span> Renato.Dev. Todos os direitos reservados.</p>
+    <p>São Paulo, Brasil (Remoto)</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
